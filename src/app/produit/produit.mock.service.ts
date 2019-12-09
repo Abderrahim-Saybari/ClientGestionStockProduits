@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 
-import { Produit } from '../shared/Produit';
+import { Produit } from '../shared/produit';
 
 import { from } from 'rxjs';
 
