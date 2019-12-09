@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 import {ProduitMockService } from './produit.mock.service';
+<<<<<<< HEAD
 import { Produit } from '../shared/Produit';
+=======
+import { Produit } from '../shared/produit';
+>>>>>>> master
 
 @Component({
   selector: 'app-produit',
