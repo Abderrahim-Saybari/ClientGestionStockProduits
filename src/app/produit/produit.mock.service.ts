@@ -3,8 +3,6 @@ import {Injectable} from '@angular/core';
 import { Produit } from '../shared/produit';
 
 
-import { from } from 'rxjs';
-
 @Injectable()
 export class ProduitMockService {
 
