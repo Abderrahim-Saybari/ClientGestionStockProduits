@@ -5,24 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProduitComponent } from './produit/produit.component';
 import { ProduitMockService } from './produit/produit.mock.service';
-<<<<<<< HEAD
-=======
+import { ContentComponent } from './content/content.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { ContentComponent } from './content/content.component';
->>>>>>> master
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    ProduitComponent
-=======
     ProduitComponent,
+    ContentComponent,
     NavbarComponent,
     SidebarComponent,
-    ContentComponent
->>>>>>> master
+    DashboardComponent
     ],
   imports: [
     BrowserModule,

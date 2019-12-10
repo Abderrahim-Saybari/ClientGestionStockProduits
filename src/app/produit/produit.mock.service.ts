@@ -1,10 +1,7 @@
 import {Injectable} from '@angular/core';
 
-<<<<<<< HEAD
-import { Produit } from '../shared/Produit';
-=======
 import { Produit } from '../shared/produit';
->>>>>>> master
+
 
 import { from } from 'rxjs';
 

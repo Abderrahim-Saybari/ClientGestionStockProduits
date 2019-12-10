@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-<h1> bonjour tout le monde </h1>
-<app-produit></app-produit>
-=======
 <div class="row body">
-    <div class="col-lg-2" *ngIf="showHideSideBar">
+    <div class="col-lg-2 col-sm-2" *ngIf="showHideSideBar">
         <app-sidebar></app-sidebar>
     </div>
-    <div class="col-lg-10">
+    <div class="col-lg-10 col-sm-10">
         <!-- <button (click)="showHideSideBar = !showHideSideBar" class="btn btn-success">Show/Hide</button> -->
         <app-navbar 
         [showSideBar]="showHideSideBar"
@@ -17,4 +13,3 @@
     </div>
 
 </div>
->>>>>>> master
